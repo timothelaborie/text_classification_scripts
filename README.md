@@ -14,3 +14,7 @@ This modified Unsloth notebook trains LLaMa-3 on any text classification dataset
 ## bert_classification.ipynb
 
 This notebook can be used to train any bert model on any text classification dataset (same format as above). The notebook also includes "group_by_length = True" which not commonly found in bert-training notebooks (they usually tokenize everything ahead of time with a lot of wasteful padding).
+
+## Loading
+
+If you want to save the model with the trimmed lm_head and then load it back again, you will need this [monkeypatch](https://gist.github.com/timothelaborie/071bb3ae8e13e1036e8cb8d0b0694330) to avoid an error
