@@ -218,3 +218,6 @@ unsloth_classification_broken.ipynb
 unsloth_compiled_cache/*
 trainer_output/*
 bert_classification_crash_test.ipynb
+sai_sgd_test.ipynb
+sai_sgd_test_bert.ipynb
+sai_sgd_test_llm.ipynb
